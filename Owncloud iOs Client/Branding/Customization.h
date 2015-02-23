@@ -18,18 +18,18 @@
 #define k_year 2015
 
 //URLs Setting
-#define k_help_url @"http://owncloud.com/mobile/help"
-#define k_recomended_url @"http://owncloud.com/mobile/recommend"
-#define k_send_feedback @"http://owncloud.com/mobile/feedback"
+#define k_help_url @"https://docs.cyphre.com/client/mobile/iOS"
+#define k_recomended_url @"https://www.cyphre.com/"
+#define k_send_feedback @"https://www.cyphre.com/#contact"
 
 //Hide url server
-#define k_hide_url_server NO
+#define k_hide_url_server YES
 
 //Set a default url server. It must be obligaroy if we hide the url server (#define k_hide_url_server YES)
-#define k_default_url_server @""
+#define k_default_url_server @"https://files.cyphre.com/"
 
 //Show multiaccount or disconnect
-#define k_multiaccount_available YES
+#define k_multiaccount_available NO
 
 //Have icon on backbutton
 #define k_have_icon_on_popover YES
@@ -51,12 +51,12 @@
 #define k_oauth_client_id @"" //the same in k_oauth_login
 
 //Mail feedback
-#define k_mail_feedback @"apps@owncloud.com"
+#define k_mail_feedback @"support@cyphre.com"
 
 //Social
-#define k_download_url_short @"http://bit.ly/13haDjE"
-#define k_download_url_long @"https://itunes.apple.com/us/app/owncloud/id543672169?mt=8"
-#define k_twitter_user @"@ownCloud"
+#define k_download_url_short @"http://bit.ly/1ErGP70"
+#define k_download_url_long @"https://itunes.apple.com/app/id970248247"
+#define k_twitter_user @"@GetCyphre"
 
 //Minimun files until show letters on separators
 #define k_minimun_files_to_show_separators 20
@@ -74,7 +74,7 @@
 #define k_show_help_option_on_settings YES
 
 //Buy more storage company name
-#define k_company_name_buy_more_storage @""
+#define k_company_name_buy_more_storage @"Cyphre"
 
 //Customize UITabBar
 #define k_is_customize_uitabbar YES
@@ -118,11 +118,11 @@
 #define k_number_uploads_shown 30
 
 //Set text of status bar white only for iOS 7. YES = White | NO = Black
-#define k_is_text_status_bar_white NO
+#define k_is_text_status_bar_white YES
 
 //Show the help link on login
 #define k_is_shown_help_link_on_login YES
-#define k_url_link_on_login @"https://owncloud.com/mobile/new"
+#define k_url_link_on_login @"https://files.cyphre.com/index.php/register/"
 
 //User-Agent
-#define k_user_agent @"iOS-ownCloud"
+#define k_user_agent @"iOS-Cyphre"

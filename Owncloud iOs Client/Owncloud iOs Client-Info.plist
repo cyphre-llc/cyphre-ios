@@ -5,7 +5,7 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleDisplayName</key>
-	<string>ownCloud</string>
+	<string>Cyphre</string>
 	<key>CFBundleDocumentTypes</key>
 	<array>
 		<dict>
@@ -59,7 +59,7 @@
 		<string>Default-Landscape_414h@3x.png</string>
 	</array>
 	<key>CFBundleIdentifier</key>
-	<string>com.owncloud.iOSmobileapp</string>
+	<string>com.cyphre.iOSmobileapp</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
@@ -70,19 +70,6 @@
 	<string>3.4.1</string>
 	<key>CFBundleSignature</key>
 	<string>????</string>
-	<key>CFBundleURLTypes</key>
-	<array>
-		<dict>
-			<key>CFBundleTypeRole</key>
-			<string>Viewer</string>
-			<key>CFBundleURLName</key>
-			<string>owncloud.sn</string>
-			<key>CFBundleURLSchemes</key>
-			<array>
-				<string>owncloud</string>
-			</array>
-		</dict>
-	</array>
 	<key>CFBundleVersion</key>
 	<string>1.0</string>
 	<key>LSApplicationCategoryType</key>

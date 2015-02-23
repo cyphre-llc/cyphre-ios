@@ -253,9 +253,11 @@ static SecCertificateRef SecTrustGetLeafCertificate(SecTrustRef trust)
             
             FILE *file;
             file = fopen( [certName UTF8String], "w" );
-            PEM_write_X509(file, x509cert);
+            if (file) {
+                PEM_write_X509(file, x509cert);
             
-            fclose(file);
+                fclose(file);
+            }
         }
     
     } else {
