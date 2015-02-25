@@ -161,12 +161,12 @@
 
 //Color of webview background
 + (UIColor*)colorOfWebViewBackground{
-   return [UIColor colorWithRed:31/255 green:31/255 blue:31/255 alpha:1.0];
+    return [UIColor colorWithRed:31/255 green:31/255 blue:31/255 alpha:1.0];
 }
 
 //Color of background in detail view when there are not file selected
 + (UIColor*)colorOfBackgroundDetailViewiPad{
-    return [UIColor whiteColor];
+    return [UIColor colorWithRed:31/255 green:31/255 blue:31/255 alpha:1.0];
 }
 
 
