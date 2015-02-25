@@ -43,10 +43,10 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="company_empty_screen_ipad.png" translatesAutoresizingMaskIntoConstraints="NO" id="RhM-9d-K2q">
-                    <rect key="frame" x="128" y="372" width="512" height="279"/>
+                    <rect key="frame" x="128" y="372" width="279" height="279"/>
                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                     <constraints>
-                        <constraint firstAttribute="width" constant="512" id="ZfA-nJ-UXQ"/>
+                        <constraint firstAttribute="width" constant="279" id="ZfA-nJ-UXQ"/>
                         <constraint firstAttribute="height" constant="279" id="aJ2-Od-njk"/>
                     </constraints>
                 </imageView>
@@ -205,7 +205,7 @@
         <image name="arrow_button.png" width="25" height="25"/>
         <image name="cancel_download.png" width="25" height="25"/>
         <image name="cancel_download_white.png" width="25" height="25"/>
-        <image name="company_empty_screen_ipad.png" width="512" height="279"/>
+        <image name="company_empty_screen_ipad.png" width="279" height="279"/>
         <image name="deleteTB.png" width="25" height="25"/>
         <image name="favoriteTB.png" width="25" height="25"/>
         <image name="openWithTB.png" width="25" height="25"/>
