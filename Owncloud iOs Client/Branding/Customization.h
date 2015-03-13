@@ -29,7 +29,7 @@
 #define k_default_url_server @"https://files.cyphre.com/"
 
 //Show multiaccount or disconnect
-#define k_multiaccount_available NO
+#define k_multiaccount_available YES
 
 //Have icon on backbutton
 #define k_have_icon_on_popover YES
@@ -121,7 +121,7 @@
 #define k_is_text_status_bar_white YES
 
 //Show the help link on login
-#define k_is_shown_help_link_on_login YES
+#define k_is_shown_help_link_on_login NO
 #define k_url_link_on_login @"https://files.cyphre.com/index.php/register/"
 
 //User-Agent
