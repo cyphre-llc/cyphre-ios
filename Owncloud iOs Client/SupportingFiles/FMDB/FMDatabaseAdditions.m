@@ -133,6 +133,7 @@ return ret;
     return r;
 }
 
+#if TARGET_OS_MAC && !TARGET_OS_IPHONE
 - (NSString*)applicationIDString {
     NSString *s = NSFileTypeForHFSTypeCode([self applicationID]);
     
@@ -144,6 +145,7 @@ return ret;
     return s;
     
 }
+#endif
 
 - (void)setApplicationID:(uint32_t)appID {
     NSString *query = [NSString stringWithFormat:@"PRAGMA application_id=%d", appID];
@@ -152,6 +154,7 @@ return ret;
     [rs close];
 }
 
+#if TARGET_OS_MAC && !TARGET_OS_IPHONE
 - (void)setApplicationIDString:(NSString*)s {
     
     if ([s length] != 4) {
@@ -160,6 +163,7 @@ return ret;
     
     [self setApplicationID:NSHFSTypeCodeFromFileType([NSString stringWithFormat:@"'%@'", s])];
 }
+#endif
 
 #endif
 
