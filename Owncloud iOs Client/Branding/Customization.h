@@ -23,13 +23,13 @@
 #define k_send_feedback @"https://www.cyphre.com/#contact"
 
 //Hide url server
-#define k_hide_url_server YES
+#define k_hide_url_server NO
 
 //Set a default url server. It must be obligaroy if we hide the url server (#define k_hide_url_server YES)
 #define k_default_url_server @"https://files.cyphre.com/"
 
 //Show multiaccount or disconnect
-#define k_multiaccount_available NO
+#define k_multiaccount_available YES
 
 //Have icon on backbutton
 #define k_have_icon_on_popover YES
