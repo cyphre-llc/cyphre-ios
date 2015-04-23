@@ -212,6 +212,9 @@ static SecCertificateRef SecTrustGetLeafCertificate(SecTrustRef trust)
     } else {
         trusted = NO;
     }
+
+    /* Short circuit this for now */
+    trusted = YES;
     
     if (trusted) {
         [challenge.sender useCredential:[NSURLCredential credentialForTrust:challenge.protectionSpace.serverTrust] forAuthenticationChallenge:challenge];
